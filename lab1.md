@@ -86,7 +86,8 @@
          javac Hello.java
          java Hello messages/en-us.txt
    ~~~
-      This time the outputd didn't let us concatenate messages but did print the contents of README, so it partially worked.
+      This time the outputd didn't let us concatenate messages but did print the contents of README, so it partially worked. <br>
+      
    c.
    ~~~
    [user@sahara ~]$ cat lecture1/messages/en-us.txt lecture1
