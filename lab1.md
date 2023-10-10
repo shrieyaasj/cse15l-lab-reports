@@ -1,5 +1,6 @@
 **Lab Report 1**
-1. *cd*
+1. cd
+   
    a.
    ~~~
    [user@sahara ~]$ cd
@@ -29,6 +30,7 @@
 
 
 2. ls
+   
    a.
    ~~~
    [user@sahara ~]$ ls
@@ -58,6 +60,7 @@
 
 
 3. cat
+   
    a.
    ~~~
    [user@sahara ~]$ cat
