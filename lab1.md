@@ -1,5 +1,5 @@
 **Lab Report 1**
-1. cd
+1. cd <br>
    
    a.
    ~~~
@@ -29,7 +29,7 @@
    It is an error since it cannot navigate to a file
 
 
-2. ls
+2. ls <br>
    
    a.
    ~~~
@@ -59,7 +59,7 @@
    Not an error but no valid output generated
 
 
-3. cat
+3. cat <br>
    
    a.
    ~~~
