@@ -46,7 +46,7 @@ PART 1 <br>
 
 PART 2 <br>
 
-3.
+2.
 ~~~
 [cs15lfa23oe@ieng6-203]:.ssh:28$ cd ~/.ssh/
 [cs15lfa23oe@ieng6-203]:.ssh:29$ ls
@@ -54,6 +54,10 @@ known_hosts
 [cs15lfa23oe@ieng6-203]:.ssh:30$ ls ~/.ssh/known_hosts
 /home/linux/ieng6/cs15lfa23/cs15lfa23oe/.ssh/known_hosts
 ~~~
+
+3. 
+![Image](lab 2 pt 2.png)
+
 
 PART 3
 
