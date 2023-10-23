@@ -1,4 +1,4 @@
-**Lab Report 2**
+**Lab Report 2** <br>
 PART 1 <br>
 
    
