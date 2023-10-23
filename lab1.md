@@ -7,16 +7,16 @@
    [user@sahara ~]$ 
    ~~~
    The working directory when the command was run was /home <br>
-   We got that output since cd is meant to change directories, but we did not indicate which directory to change to so we did not receive an output. <br>
-   No error but no output was generated. <br>
+   cd is meant to change directories and does not output anything, however, in this case. we did not specify a directory to move to, and therefore nothing changed <br>
+   No error but the directory was not changed. <br>
    
    b.
    ~~~
    [user@sahara ~]$ cd lecture1/messages
    [user@sahara ~/lecture1/messages]$ 
    ~~~
-   The working directory when the command was run became /home/lecture1/messages <br>
-   We got thae output since we changed to the directory messages by specifying it's path <br>
+   The working directory when the command was run was /home <br>
+   We got that output since we changed to the directory messages by specifying it's path '/lecture1/messages' <br>
    The output was not an error <br>
 
    c.
@@ -25,7 +25,7 @@
    bash: cd: lecture1/messages/en-us.txt: Not a directory
    ~~~
    The working directory was /home <br>
-   We got that output since we cannot change directories to a file <br>
+   We got that error message since we cannot change directories to a file <br>
    It is an error since it cannot navigate to a file <br>
 
 
@@ -55,8 +55,8 @@
    lecture1/messages/en-us.txt
    ~~~
    The working directory was still /home since we navigated to the path but didnt change directories <br>
-   We got that output since it couldn't list any files under the files themselves <br>
-   Not an error but no valid output generated <br>
+   We got that output since it just listed the file that we gave the path to, which is en-us.txt <br>
+   Not an error, the file was listed as expected after giving it's path <br>
 
 
 3. cat <br>
