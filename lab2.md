@@ -61,7 +61,7 @@ known_hosts
 ~~~
 
 3. 
-![Image](lab 2 pt 2.png)
+![Image](lab 2 pt 2.png) <br>
 ~~~
 C:\Users\shrie>ssh cs15lfa23oe@ieng6.ucsd.edu
 Last login: Sun Oct 22 23:30:44 2023 from 076-033-214-030.inf.spectrum.com
@@ -130,8 +130,9 @@ Sun Oct 22, 2023 11:39pm - Prepping cs15lfa23
 [cs15lfa23oe@ieng6-203]:~:33$
 
 ~~~
+<br>
 
-
-PART 3
+PART 3 <br>
 I can login to my ucsd server without needing a password every single time on my local computer
+<br>
 
