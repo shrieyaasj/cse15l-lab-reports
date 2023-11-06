@@ -26,8 +26,11 @@ Choosing the revered method to test:
 ~~~
 <br>
 3. Symptom <br>
+
 ![Image](lab3symptom.png)
 
+
+<br>
 
 
 
