@@ -73,6 +73,6 @@ C:\Users\shrie/.ssh/id_rsa.pub
 <br>
 
 PART 3 <br>
-I can login to my ucsd server without needing a password every single time on my local computer
+I can login to my ucsd server without needing a password every single time on my local computer by setting up an SSH key and saving my publ,ic key to my computer, and learnt how to add files from my local computer to the remote ieng6 server using scp.
 <br>
 
