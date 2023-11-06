@@ -57,12 +57,12 @@ PART 2 <br>
 using ls: <br>
 ![Image](ls2.png) <br>
 
-1. 
+1. <br>
 ~~~
 C:\Users\shrie/.ssh/id_rsa
 ~~~
 
-2.
+2. <br>
 ~~~
 C:\Users\shrie/.ssh/id_rsa.pub
 ~~~
