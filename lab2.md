@@ -54,6 +54,9 @@ public class StringServer {
 
 
 PART 2 <br>
+using ls: <br>
+![Image](ls for 2.png) <br>
+
 1. 
 ~~~
 C:\Users\shrie/.ssh/id_rsa
