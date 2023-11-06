@@ -4,6 +4,7 @@ Choosing the revered method to test:
 <br>
 
 1. Failure-inducing input <br>
+
 ~~~
 @Test
   public void testReversed() {
@@ -14,6 +15,7 @@ Choosing the revered method to test:
 ~~~
 <br>
 2. Input that does not induce Failure <br>
+
 ~~~
 @Test
     public void testReversedNoFailure() {
@@ -24,5 +26,7 @@ Choosing the revered method to test:
 ~~~
 <br>
 3. Symptom <br>
+
+
 
 
