@@ -13,6 +13,7 @@ Choosing the revered method to test:
   }
 ~~~
 <br>
+
 2. Input that does not induce Failure <br>
 
 ~~~
@@ -24,6 +25,7 @@ Choosing the revered method to test:
     }
 ~~~
 <br>
+
 3. Symptom <br>
 
 ![Image](lab3symptom.png)
@@ -58,6 +60,6 @@ static int[] reversed(int[] arr) {
 ~~~
 <br>
 
-The reason why this code change works is because now the values from the original 'arr' are assigned to 'newArray' and therefore there's a place to store the contents from the original array to be able to continue reversing the rest of the array.
+Explanation: The reason why this code change works is because now the values from the original 'arr' are assigned to 'newArray' and therefore there's a place to store the contents from the original array to be able to continue reversing the rest of the array. <br>
 
 
