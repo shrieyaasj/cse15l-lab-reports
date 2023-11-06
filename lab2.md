@@ -40,15 +40,15 @@ public class StringServer {
 ![Image](ss1.png) <br>
 
    1. handle and handlerRequest method is called <br>
-   2. The relevant arguments for handle are 'ret' which contains the string passed in after the = and gets stored in parameters (for eg, parameters[1] is "1. Hello\n". The value is a string.<br>
+   2. The relevant arguments for handle are 'ret' which contains the value passed in after the = and gets stored in parameters (for eg, parameters[1] is "1. Hello\n").<br>
    3. The field num is being incremented by 1 as and when a new string is added. So right now it went from 0 to 1. <br>
 <br>
 
 ![Image](ss2.png) <br>
 
 
-   1. URLHandler and StringServer methods are called. <br>
-   2. The relevant arguments for URLHandler are the string passed in after the = and gets stored in parameters -> "1. Hello\n 2. How are you\n". The value is a string.<br>
+   1. handle and handlerRequest method is called <br>
+   2. The relevant arguments for handle are the values passed in after the = and gets stored in parameters -> "1. Hello\n 2. How are you\n".<br>
    3. The field num is being incremented by 1 as and when a new string is added. So right now it went from 1 to 2. <br>
 <br>
 
