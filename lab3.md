@@ -2,7 +2,6 @@
 PART 1 <br>
 Choosing the revered method to test:
 <br>
-
 1. Failure-inducing input <br>
 
 ~~~
