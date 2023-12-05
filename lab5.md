@@ -53,4 +53,4 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ~~~
 
 PART 2 <br>
-I thought designing our own autograder was super interesting since I now have a base-level understanding of what happens when I submit assignments. Especially when it came to using bash scripts to navigate through the directory and outputs to then print error/success messages.
+I thought designing our own autograder was super interesting since I now have a base-level understanding of what happens when I submit assignments. Especially when it came to using bash scripts to navigate through the directory and outputs to then print error/success messages. It took my knowledge of writing junit tests to another level. I found all the ways to traverse through files ery interesting using the bash scripts.
