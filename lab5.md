@@ -13,9 +13,44 @@ project/
 
 FactorialCalculator.java
 ~~~
+public class FactorialCalculator {
+    public static long calculateFactorial(int number) {
+        long factorial = 1;
+
+        for (int i = 2; i <= number; ++i) {
+            factorial *= i;
+        }
+
+        return factorial;
+    }
+}
 ~~~
 FactorialTests.java
+~~~
+import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.*;
+
+
+
+public class FactorialCalculatorTest {
+
+    @Test
+    public void testFactorialInput5() {
+        assertEquals(120, FactorialCalculator.calculateFactorial(5));
+    }
+
+    @Test
+    public void testFactorialInput10() {
+        assertEquals(3628800, FactorialCalculator.calculateFactorial(10));
+    }
+}
+~~~
 tests.java
+~~~
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore FactorialTests.java
+~~~
 
 PART 2 <br>
 I thought designing our own autograder was super interesting since I now have a base-level understanding of what happens when I submit assignments. Especially when it came to using bash scripts to navigate through the directory and outputs to then print error/success messages.
